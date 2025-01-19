@@ -11,6 +11,7 @@ contactInfo.textContent = 'Winston-Salem , NC, 27107 (555)555-5555'
 
 
 const mainDescription = document.createElement('div');
+
 mainDescription.classList.add('section1', 'main-description');
 const imageForMain = document.createElement('img');
 imageForMain.classList.add('image-main');
@@ -40,6 +41,12 @@ reservationInfo.append(reserveHeading,reserveSubHeading,reserveBody,reserveButto
 
 const cateringInfo = document.createElement('div');
 cateringInfo.classList.add('section1', 'catering');
+const image1Catering = document.createElement('img');
+const textBox1Catering = document.createElement('div');
+const image2Catering = document.createElement('img');
+const textBox2Catering = document.createElement('div');
+const image3Catering = document.createElement('img');
+const textBox3Catering = document.createElement('div')
 
 
 const reviews = document.createElement('div');
