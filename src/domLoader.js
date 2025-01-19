@@ -1,4 +1,4 @@
-const parentContainer = document.getElementById('content');
+export const parentContainer = document.getElementById('content');
 
 
 const heroContainer = document.createElement('div');
@@ -27,3 +27,8 @@ reviews.classList.add('section2', 'reviews');
 
 const hiringInfo = document.createElement('div');
 hiringInfo.classList.add('section1', 'hiring');
+
+
+function renderHome(){
+    parentContainer.append(heroContainer,contactInfo,mainDescription,reservationInfo,cateringInfo,reviews,hiringInfo);
+}
