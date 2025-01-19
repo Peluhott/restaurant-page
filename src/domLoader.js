@@ -7,6 +7,7 @@ heroContainer.classList.add('section1', 'hero-container');
 
 const contactInfo = document.createElement('div');
 contactInfo.classList.add('section2', 'contact-info');
+contactInfo.textContent = 'Winston-Salem , NC, 27107 (555)555-5555'
 
 
 const mainDescription = document.createElement('div');
@@ -38,5 +39,5 @@ function renderFood() {
 }
 
 function renderAbout(){
-    
+
 }
