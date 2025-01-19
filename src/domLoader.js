@@ -32,3 +32,11 @@ hiringInfo.classList.add('section1', 'hiring');
 function renderHome(){
     parentContainer.append(heroContainer,contactInfo,mainDescription,reservationInfo,cateringInfo,reviews,hiringInfo);
 }
+
+function renderFood() {
+
+}
+
+function renderAbout(){
+    
+}
