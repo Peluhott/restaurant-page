@@ -12,6 +12,16 @@ contactInfo.textContent = 'Winston-Salem , NC, 27107 (555)555-5555'
 
 const mainDescription = document.createElement('div');
 mainDescription.classList.add('section1', 'main-description');
+const imageForMain = document.createElement('img');
+imageForMain.classList.add('image-main');
+imageForMain.src = 'images/pasta-bolog.jpg';
+const shortDescription = document.createElement('p');
+shortDescription.classList.add('description');
+shortDescription.textContent = "Pelu Pasta brings the rich flavors of Italy's diverse regions to life, offering a unique blend of traditional and contemporary pasta dishes. With a focus on authenticity and hospitality, Pelu Pasta aims to deliver an unforgettable dining experience in the heart of downtown Winston-Salem.";
+const buttonForMain = document.createElement('button');
+buttonForMain.classList.add('button-main');
+buttonForMain.textContent = 'Our Menu'
+mainDescription.append(imageForMain,shortDescription,buttonForMain);
 
 
 const reservationInfo = document.createElement('div');
