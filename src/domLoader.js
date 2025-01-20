@@ -59,6 +59,8 @@ const cateringInfo = document.createElement('div');
 cateringInfo.classList.add('section1', 'catering');
 const image1Catering = document.createElement('img');
 const textBox1Catering = document.createElement('div');
+const textForTextBox1 = "Savor the taste of Italy with Pelu Pasta! Order your favorite authentic Italian dishes online and enjoy a delicious meal in the comfort of your own home. With our simple online ordering system, you can explore our menu, customize your pasta, and choose pickup or delivery in just a few clicks. Your Italian culinary journey starts here"
+const textBox1 = createTextBox("Order Online", "Take Us Home With You", textForTextBox1, "Order")
 const image2Catering = document.createElement('img');
 const textBox2Catering = document.createElement('div');
 const image3Catering = document.createElement('img');
