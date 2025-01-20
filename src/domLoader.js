@@ -38,6 +38,22 @@ const reserveButton = document.createElement('button');
 reserveButton.textContent = 'Reserve';
 reservationInfo.append(reserveHeading,reserveSubHeading,reserveBody,reserveButton);
 
+function createTextBox(title, subtitle, bodyText, buttonTitle){
+    const container = document.createElement('div');
+    container.className = 'textbox'
+    const titleElement = document.createElement('h1')
+    titleElement.textContent = title;
+    const subTitleElement = document.createElement('h3');
+    subTitleElement.textContent = subtitle;
+    const bodytextElement = document.createElement('p');
+    bodytextElement.textContent = bodyText;
+    const buttonElement = document.createElement('button');
+    buttonElement.textContent = buttonTitle;
+    container.append(titleElement,subTitleElement,bodytextElement,buttonElement);
+    return container;
+
+}
+
 
 const cateringInfo = document.createElement('div');
 cateringInfo.classList.add('section1', 'catering');
