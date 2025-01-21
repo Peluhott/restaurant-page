@@ -39,9 +39,9 @@ mainDescription.append(imageForMain,shortDescription,buttonForMain);
 const reservationInfo = document.createElement('div');
 reservationInfo.classList.add('section2', 'reservation');
 
-const reserveHeading = document.createElement('h2')
+const reserveHeading = document.createElement('h1')
 reserveHeading.textContent = 'Reservation';
-const reserveSubHeading = document.createElement('h5')
+const reserveSubHeading = document.createElement('h3')
 reserveSubHeading.textContent = 'We Look Forward To Hosting You';
 const reserveBody = document.createElement('p');
 reserveBody.textContent = "Join us at Pelu Pasta and reserve your table for an authentic Italian dining experience! Whether you're celebrating a special occasion or enjoying a casual meal with friends, reserving in advance guarantees a spot for you to indulge in our delicious pasta and exceptional service.";

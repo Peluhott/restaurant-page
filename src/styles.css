@@ -105,3 +105,18 @@ button {
     
 }
 
+.reservation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.reservation p {
+    font-size: 1.1rem;
+    width: 70%;
+    margin: 0 auto;
+}
