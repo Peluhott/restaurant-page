@@ -4,7 +4,7 @@ going to create it entirely using dom Manipulation to practice.
 
 ** ending project early
 
-I understand how the dom manipulation works and not goign to use this on my porfolio
+I understand how the dom manipulation works and not goign to use this on my porfolio, and i have limited time because of school and work so I have to move on
 
 ** things left to do**
 create food and about section
