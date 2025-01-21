@@ -8,6 +8,8 @@ I understand how the dom manipulation works and not goign to use this on my porf
 
 ** things left to do**
 create food and about section
+create rows, with food in a square on right and description in square on left
+about me section - picture of a fake owner, group of coworkers, some fake history
 add functions that change the class assigned to the content div based on the button pressed
 
 ** things i need to do in the future
