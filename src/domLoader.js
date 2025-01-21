@@ -115,13 +115,15 @@ hiringInfo.classList.add('section1', 'hiring');
 
 
 export function renderHome(){
+    parentContainer.innerHTML = '';
     parentContainer.append(heroContainer,contactInfo,mainDescription,reservationInfo,cateringInfo,reviews,hiringInfo);
 }
 
 export function renderFood() {
-
+    parentContainer.innerHTML = '';
 }
 
 export function renderAbout(){
+    parentContainer.innerHTML = '';
 
 }
