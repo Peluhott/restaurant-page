@@ -26,15 +26,16 @@
     background-position: center;
     background-repeat: no-repeat;
     height: 900px;
-    width: 100vh;
+    width: 100%;
     
 }
 
 body {
     display: grid;
-    grid-row: 1fr 4fr 60px 1fr 1fr 3fr;
+    /*grid-row: 1fr 4fr 60px 1fr 1fr 3fr*/;
+    grid-template-rows: repeat(6,auto);
     grid-template-columns: 1fr;
-    width: 100vh;
+    width: 100%;
 }
 
 .catering {
@@ -42,7 +43,7 @@ body {
     grid-template-columns: 1fr 1fr;
     
     grid-template-rows: repeat(3, 1fr);
-    row-gap: 50px;
+    row-gap: 30px;
     column-gap: 25px;
     width: 100%;
     max-width: 100%;
@@ -69,9 +70,24 @@ body {
     height: 100%;
     width: 100%;
     padding: 10px 10px;
+    margin: 2px;
     
     
     
+}
+h1,h2, h3, p {
+    margin: 9px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 1rem;
+}
+p {
+    font-size: .75rem;
 }
 
 button {
@@ -81,9 +97,11 @@ button {
     width: 100px;
     height: 20px;
     border-radius: 2px;
+    margin: 20px;
 }
 
 .imageDiv {
     padding: 5px;
-    box-sizing: border-box;
+    
 }
+
